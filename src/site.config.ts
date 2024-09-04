@@ -2,9 +2,9 @@ import type { SiteConfig, MenuLinks, SocialLinks } from '@/types'
 
 export const siteConfig: SiteConfig = {
   // Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-  author: 'CWorld / Arthals',
+  author: '杨沛东',
   // Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-  title: 'Astro Theme Pure',
+  title: 'Samoyed\'s Blog',
   // Meta property used to generate your sitemap and canonical URLs in your final build
   site: 'https://theme-astro-pure.vercel.app/',
   // Meta property used as the default description meta property
@@ -24,10 +24,11 @@ export const siteConfig: SiteConfig = {
   },
   // Customize
   pageSize: 8,
+  /*
   registration: {
     url: 'https://icp.gov.moe/?keyword=APTX4869',
     text: '萌ICP备APTX4869号'
-  },
+  },*/
   walineServerUrl: 'https://astro-theme-pure-waline.arthals.ink',
   applyFriendTip: {
     name: 'Astro Theme Pure',
@@ -41,7 +42,7 @@ export const siteConfig: SiteConfig = {
 export const socialLinks: SocialLinks = [
   {
     name: 'github',
-    url: 'https://github.com/cworld1/theme-astro-pure'
+    url: 'https://github.com/ypd666'
   }
 ]
 
